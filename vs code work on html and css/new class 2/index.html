@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <!-- Responsive Form -->
+
+
+<h2>Responsive Form</h2>
+<p>Resize the browser window to see
+    the effect. When the screen is less
+    than 600px wide, make the two
+    columns stack on top of each other
+    instead of next to each other
+</p>
+
+<div class="container">
+    <form>
+        <div class="row">
+        <div class="col-25">
+            <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname"
+            name="firstname"
+            placeholder="Your name..">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname"
+            name="lastname"
+            placeholder="Your name..">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+            <select id="countrry" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+            <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+            <textarea id="subject" name="subject"
+            placeholder="write something.."
+            style="height:200px"></textarea>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <input type="submit" value="Submit" class="fi">
+    </div>
+    </form>
+</div>
+<!-- CSS website Layout -->
+    <!-- Responsible Website Layout -->
+
+    <div class="header">
+        <h1>My Website</h1>
+        <p>resized the browser window to see th effect</p>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" style="float: right;">Link</a>
+    </div>
+
+    <div class="row">
+        
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>title heading</h2>
+                <h5>title discription,Dec 7 2017</h5>
+                <div class="fakeimg" style="height:200px">image</div>
+                <p>some text...</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sint, rerum dolorum repudiandae, quod ut laudantium minus
+                      dicta voluptatibus saepe inventore sunt. Sed, incidunt 
+                      consequatur? Cum, architecto? Laborum illo facilis aperiam!</p>
+            </div>
+            <div class="card">
+                <h2>title heading</h2>
+                <h5>title discription,sep 7 2017</h5>
+                <div class="fakeimg" style="height:200px">image</div>
+                <p>some text...</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sint, rerum dolorum repudiandae, quod ut laudantium minus
+                      dicta voluptatibus saepe inventore sunt. Sed, incidunt 
+                      consequatur? Cum, architecto? Laborum illo facilis aperiam!</p>
+            </div>
+        </div>
+    
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height: 100px;">image</div>
+            <p>some text about me in cupa qui officia deserunt molltanim</p>
+            </div>
+            <div class="card">
+                <h3>Popular post</h3>
+                <h3 class="fakeimg"><p>Image</p></h3>
+                <h3 class="fakeimg"><p>Image</p></h3>
+                <h3 class="fakeimg"><p>Image</p></h3>
+            </div>
+
+            <div class="card">
+                <h3>follow me</h3>
+                <p>some text...</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>footer</h3>
+    </div>
+<!-- CSS units
+
+    CSS has several units for expressing a length -->
+
+<!-- length is the measure ment or extent of something from  end to end;
+       the greater of two or the greatest of two or the greatest of three dimensions of an object -->
+<p>
+    Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.
+    
+length is a number followed by a length unit, such as 10px, 2em, etc.
+
+</p>
+
+<p>CSS length measurement using pixel unit</p>
+
+<!-- CSS pixel unit -->
+<h1 class="px">This is heading 1 with pixels</h1>
+<h2>this is heading 2</h2>
+<p class="px1">This is a paragraph. with pixels</p>
+<p class="px1">This is another paragraph. with pixels</p>
+
+
+
+<!-- CSS centimeters unit -->
+<h1 class="cm">This is heading 1 with cm</h1>
+<h2 class="cm2">this is heading 2 with cm</h2>
+<p class="cm3">This is a paragraph. with cm</p>
+<p class="cm3">This is another paragraph. with cm</p>
+
+<!-- CSS millimeter unit -->
+<h1 class="mm">This is heading 1 with mm</h1>
+<h2 class="mm2">this is heading 2 with mm</h2>
+<p class="mm3">This is a paragraph. with mm</p>
+<p class="mm3">This is another paragraph. with mm</p>
+
+
+<!-- CSS em unit -->
+<h1 class="em">This is heading 1 with em</h1>
+<h2 class="em2">this is heading 2 with em</h2>
+<p class="em3">This is a paragraph. with em</p>
+<p class="em3">This is another paragraph. with em</p>
+
+
+<!-- CSS Inch unit -->
+<h1 class="in">This is heading 1 with in</h1>
+<h2 class="in1">this is heading 2 with in</h2>
+<p class="in2">This is a paragraph. with in</p>
+<p class="in2">This is another paragraph. with in</p>
+
+
+
+
+<!-- CSS percentage unit -->
+<p class="per">
+    The font-size of this document is 16%
+ </p>
+<div class="percent">
+the font-size of this div element is 150%
+</div>
+<p>
+    the % Unit sets the font-size relative to the current font-size 
+</p>
+
+<!-- CSS viewport height Vh unit -->
+<h1>Hello</h1>
+
+<p>
+    resize the height of the browser window to see how font-size
+    of h1 charges
+</p>
+
+
+
+
+<!-- css viewsport height vh unit -->
+<h1>hello</h1>
+
+<p>Resize the height of the browser window to see how font-size of h1 changes</p>
+<P class="vh">1vh = 1% of veiwsport height </P>
+
+
+
+
+<!-- CSS Specificity -->
+
+<p>
+    if there are two or more css rules that points to the same element
+    the selector with the height Specificity value will"win",and its style
+    declaration will be applied to that HTML element
+
+    Think of specificity as a score/rank that determines which style delclaration
+    which style declaration is ultimatle applied to an element
+</p>
+
+<!-- element 1 -->
+
+<p class="test"> Hello World</p>
+
+<!-- element 2 -->
+
+<p id="demo" class="test">Hello World</p>
+
+<!-- element 3 -->
+<p id="demo" class="test" style="color: pink;">
+    Hello World
+</p>
+
+
+
+<!-- css round corners -->
+<h1> the border radius property</h1>
+<p> Ronded corners for an element with a specified bacground color;
+</p>
+<p id="rcorners1"> Rounded corners !</p>
+<p> Rounded corners for an element with a border:</p>
+<p id="rcorners2"> Rounded corners !</p>
+<p> Rounded corners for an element with a background image:</p>
+<p id="rcorners3"> Rounded corners !</p>
+
+<!-- 
+<h1> Multiple backgrounds</h1> -->
+<h1> Multiple backgrounds</h1>
+<p> the following elment has two background images:</p>
+
+<div id="example1">
+   <h1> lorem ipsum dolor</h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, pariatur vitae. Accusamus tempora quod est temporibus, a dolor modi. Exercitationem, debitis numquam modi explicabo animi recusandae doloribus ea. Voluptatum, quod.
+   </p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ad maxime, voluptatem dignissimos libero laboriosam cum dolores animi totam quae minima veritatis quasi autem voluptatibus, velit voluptas id enim tenetur.
+   </p>
+</div>
+
+<!-- css color keyboards -->
+<!-- the current color keyword -->
+<p>
+    The current color key word is like a variable that holds the current valuesof the color
+    property of am element.
+
+
+
+
+     This keyboard can be useful if you want a specific color to be consistent in an element or
+     a page
+</p>
+
+<h2>The current color key word</h2>
+
+<p>
+    The current color key word refers to the current value of the color properety of the element
+
+</p>
+
+<div class="currentcolor">  </div>
+
+<!-- css color keywords -->
+
+<p>
+    the inherit keyword specifies that a property should inherit its value from its parent element.
+    The inherent key word can be used for any css propertyu and on any Html elemrn
+</p>
+
+<h2></h2>
+
+<div class="obi">
+    Here, the <span> span elemnts</span> border settings will also be inherited from the parent element
+</div>
+
+
+<br>
+
+<div style="border: 2px dotted blue;"></div>
+
+
+
+
+
+<!-- <css gradients -->
+<p>
+    css gradients let you display smooth transitions between two or more specified color
+</p>
+
+<p> css derfines three type of gradients</p>
+
+<p>
+    (1) linear gradients: (goes down / up / left / right /diagonally)
+(2) Radial gradients: (defined by thier center)
+(3) conic gtradients:( rotate around a center point)
+
+
+</p>
+
+<!-- linear gradient top to bottom -->
+<h1> linear gradient - Top to bottom</h1>
+<p> this linear gradient starts red at the top, transitioning to yellow at
+    the bottom:
+</p>
+
+
+<div id="grad1"></div>
+
+
+
+<!-- 
+ linear gradient -left to right -->
+ <h1> linear gradient - left to right</h1>
+ <p> this linear gradient starts red at the left, transitioning to yellow
+     (to the right):
+ </p>
+ <div id="grad2"></div>
+
+
+
+
+ <!-- linear gradient diagonal -->
+
+ <h1> linear gradient - diagonal</h1>
+ <p> this linear gradient starts red at the top left, transitioning to yellow at
+     (the bottom right):
+ </p>
+ <div id="grad3"></div>
+
+
+<!-- linear gradients using different andles -->
+<h1> linear gradients using different angles</h1>
+
+
+<div id="g1" style="text-align:center;"></div>
+<br>
+<div id="g1" style="text-align:center;"></div>
+<br>
+<div id="g1" style="text-align:center;"></div>
+<br>
+<div id="g1" style="text-align:center;"></div>
+<br>
+<div id="g1" style="text-align:center;"></div>
+<br>
+
+
+<!-- CSS Gradients -->
+
+<p>
+    CSS gradients let you display smooth transition between two or more specified colors
+  </p>
+  <p>CSS Defines three types of gradients:</p>
+  <p>
+    (1) Liner Gradients: (goes down/up/left/right/diagonally)
+    (2) Radial Gradients: (defined by their center)
+    (3) Conic Gradients: (rotated arpund a center point)
+  </p>
+
+  <!-- Linear Gradients - top to bottom -->
+
+  <h1>Linear Gradients - top tp Bottom</h1>
+  <p>This Linear gradients starts red at the top, transitiong to yellow at the bottom</p>
+
+  <div id="grad1"></div>
+
+
+  <!-- Linear Gradients - left to right  -->
+
+  <h1>Linear Gradient - left to right</h1>
+  <p>This Gradients starts red at the left, transition to yellow (to the right):</p>
+
+  <div id="grad2"></div>
+
+
+  <!-- linear Gradiants - Multiple Color stops -->
+
+  <h1>Linear Gradiant - multiple color stops</h1>
+  <p><strong>Note:</strong>color stops are spaced
+evenly when no percentage are specified</p>
+<h2>3 color stops (evenly spaced):</h2>
+<div id="grad1"></div>
+
+<h2>7 color stops (evenly spaced):</h2>
+<div id="grad2"></div>
+
+<h2>3 color stops (evenly spaced):</h2>
+<div id="grad3"></div>
+<br><br><br><br>
+    <!-- rainbow Background -->
+
+    <div id="grad1" style="text-align: center;margin: auto;
+    color: #888888;font-size: 40px;font-weight: bold;">
+    Brainbow Background</div>
+
+    <!-- linear Gradiant - Transparency -->
+
+    <h1>Linear Gradiant - Transparency</h1>
+    <p>to add transparency,we use the rgba()function
+        to define the color stops.The last parameter in 
+        the rbga() function con be value from 0 to 1,
+        0 indicates full transparency,1 indicates full 
+        color (no transparency)
+    </p>
+</div>
+    <div id="grad11"></div>
+<div>
+
+<!-- repeating Linear gradiant -->
+
+<h1>repeating Linear gradiant</h1>
+
+<div id="grad21"></div>
+
+<p>Arepearting on 45deg axe starting
+    red and finishing green
+</p>
+<div id="grad22"></div>
+
+<p>a repeating gradient on 190deg axe starting red 
+    and finishing green:</p>
+    <div id="grad23"></div>
+
+    <p>a repeating gradient on 190deg axe starting red 
+        and finishing green:</p>
+        <div id="grad24"></div>
+
+    <p>A repeating linear gradiant with solid stripes:</p>
+        <div id="grad25"></div>
+
+
+<p>
+
+</p>
+
+<!-- CSS Radical Gradients -->
+<p>
+    A Radical Gradient is defined by its center. To create a radical gradient, you must also define at least two color stops.
+</p>
+
+<!-- Radical Gradients - Evenly Spaced Color Stops -->
+<h1>Radical Gradients - Evenly Spaced Color Stops</h1>
+<div id="grr1"></div>
+
+<!-- Radical Gradients - Differently Spaced Color Stops -->
+<h1>Radical Gradients - Differently Spaced Color Stops</h1>
+<div id="grr2"></div>
+
+<!-- Radical Gradients - Shapes -->
+<h1>Radical Gradients - Shapes</h1>
+<h2>Ellipse (This is default)</h2>
+<div id="grr3"></div>
+<br>
+<h2><strong>Circle:</strong></h2>
+<div id="grr4"></div>
+
+</body>
+</html>

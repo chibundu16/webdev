@@ -1,0 +1,213 @@
+*{
+    margin-left: -1px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-bar {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-bar {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-content {
+    display: none;
+    position: fixed;
+    background-color: #f4f4f4;
+    min-width: 100px;
+    z-index: 1;
+    text-align: center;
+}
+.nav-content a:hover {
+    background-color: #ccc;
+    transition: 0.2s ease-in;
+}
+
+span a {
+    padding: 10px 10px 10px 10px;
+    color: #022f57;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+span a:hover {
+    background-color: #022f572c;
+    color: rgb(var(--txt,var(--color_15)));
+    transition: 0.2s ease-in;
+
+}
+
+.nav-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    color: #92a2af;
+    padding: 15px 20px;
+    line-height: 5px;
+}
+
+.nav-bar:hover .nav-content {
+    display: block;
+}
+
+.active {
+    background-color: #022f57;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.contact_back {
+    background-image: url(/assets/hands.jpg);
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(0.7);
+    opacity: 0.8;
+}
+
+.leg{
+    background-image: url(https://static.wixstatic.com/media/a8928b_f1c2a531490949d4814ff2cd5817f890~mv2.jpg/v1/fill/w_947,h_667,al_c,q_85,enc_auto/a8928b_f1c2a531490949d4814ff2cd5817f890~mv2.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 374px;
+    text-align: center;
+    margin-top: -287px;  
+
+}
+.eye{
+padding: 144px;
+color: white;
+font-size: 105px;
+}
+.brain{
+    background-color: white;
+    height: 164px;
+    display: flex;
+    margin-bottom: -36px;
+    
+    
+}
+.finger,.nails{text-align: center;
+    padding: 19px 20px;
+    width: 337px;
+    height: 72px;
+    color: white;
+    background-color: #034C8C;
+    margin-left: 227px;
+    margin-top: 44px;
+    font-size: 31px;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: -10px 10px 18px 0px  rgba(67, 69, 76, 0.922);
+}
+.finger{
+    margin-left: 290px;
+}
+.finger:hover,.nails:hover{
+    background-color: rgb(69, 67, 67);
+}
+
+.footer1{
+    line-height: 0.9;
+    border-right: #f4f4f4 1px solid;
+    height: 200px;
+    width: 300px;
+    margin-left: 15%;
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.footer{
+    display: flex;
+}
+footer{
+    background-color: #012646;
+    color: white;
+    padding: 5px;
+    height: 360px;
+    box-shadow: 0px 0px 5px 10px rgba(67, 69, 76, 0.922);
+    margin-top: 60px;
+    margin-left: 0;
+}
+.contacts{
+    color: #a0957a;
+    font-family: "palatino linotype", serif;
+    font-size: large;
+}
+i{
+    color: white;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+}
+.mail{
+    color: white;
+}
+.site{
+    color: white;
+    margin-left: 20%;
+    font-size: 17px;
+}
+.footer1 .site{
+    margin-top: 100%;
+}
+.footer2{
+    line-height: 0.9;
+    border-right: #f4f4f4 1px solid;
+    height: 200px;
+    width: 300px;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.footer3{
+    line-height: 0.9;
+    height: 200px;
+    width: 300px;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.ft{
+    margin-top: 80px;
+}
+.limg{
+    margin-left: 5%;
+}
+.outlook{
+    height: 70px;
+    width: 70px;
+}
+.folder{
+    display: flex;
+}
+.faith{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-weight: lighter;
+}
+

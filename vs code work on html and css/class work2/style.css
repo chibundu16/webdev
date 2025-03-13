@@ -1,0 +1,72 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: arial;
+}
+
+h1{
+    text-align: center;    
+}
+
+div{
+    white-space: pre-wrap;
+    max-width: 500px;
+       
+}
+
+h2{
+     text-align: center;   
+    color: black;
+    padding: 0px 0px 17px;
+    width: 98%;
+    height: 30px;
+    margin: auto;
+}
+
+
+div.t{
+    background: blue;
+    color: white;
+    padding: 15px;
+    width: 58%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
+
+div.a{
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 58%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
+
+div.p{
+    background: red;
+    color: white;
+    padding: 15px;
+    width: 58%;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.h{
+    color: black;
+    width: 60%;
+    margin: auto;
+      
+}
+button{
+    margin-left: 48%;
+}
+
+   
+    
+    

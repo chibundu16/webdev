@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image:url(neck.jpg);
+    
+    
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.a{
+    font-size: 40px;
+    
+    
+}
+.b{
+    font-size: 40px;
+}
+div{
+    font-size: 20px;
+    padding: 0px 100px;
+}
+img{
+    margin-top: 150px;
+}
+h5{
+    color: black;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    border-radius: 70px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,94 @@
+body{
+ background-color: brown;  
+}
+
+.container{
+    background-image: url(https://images.unsplash.com/photo-1618902515708-0972a312344b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+}
+
+.tiv{
+    width:150px;
+    height: 150px ;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.nav{
+    background-color:  crimson;
+    border-radius: 2px;
+    margin-left: 250px;
+    padding: 20px;
+}
+.nap{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.nap:hover{
+    background-color: wheat;
+    color: brown;
+    border-radius: 4px;
+}
+.tim{
+    color: aliceblue;
+    font-size: 60px;
+    margin-left: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lip{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 70px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.leo{
+    padding: 10px 10px 4px 5px;
+    border-radius: 64px;
+    width: 250px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.new{
+    width: 40%;
+    float: left;
+
+}
+.div{
+    float: left;
+    width: 60%;
+    
+
+}
+.words{
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.textnext{
+    color: rgba(245, 222, 179, 0.549);
+}
+.textunder{
+    color: rgba(245, 222, 179, 0.808); 
+    font-weight: 300;
+}
+.read{
+    text-decoration: none;
+    background-color: brown;
+    color: wheat;
+    border-radius: 15px;
+    padding: 5px 5px 3px 5px;
+    
+}
+
+.rev{
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 50px;
+}

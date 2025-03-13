@@ -1,0 +1,850 @@
+
+/* CSS Conic Gradients of Three colors*/
+
+#grad1 {
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do
+     not support gradients */
+    background-image: conic-gradient(red, yellow,
+     green);
+  }
+  
+  /* Conic Gradient: Five Colors */
+  
+  #grad1 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image: 
+    conic-gradient(red, yellow,
+     green, blue, black);
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Conic Gradient - Defined degree for
+   each color */
+  
+  #grad1 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image: 
+    conic-gradient(red 45deg, yellow
+     90deg, green 210deg);
+  }
+  
+  
+  
+  
+  
+  /* Conic Gradient - Pie Chart */
+  
+  #grad1 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support
+     gradients */
+    background-image: conic-gradient
+    (red, yellow, green, blue,
+     black);
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Conic Gradient pie chart with 
+  defined degrees for all the colors */
+  
+  #grad5 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image: 
+    conic-gradient(red 0deg, 
+    red 90deg, yellow 90deg,
+     yellow 180deg, green 180deg,
+      green 270deg, blue 270deg);
+    border-radius: 50%;
+  }
+  
+  
+  /* CSS Shadow Effects */
+  
+  h1 {
+    text-shadow: 2px 2px;
+  }
+  
+  /* First Text-shadow effect! */
+  .First {
+    text-shadow: 2px 2px red;
+  }
+  
+  /* Second Text-shadow effect! */
+  .Second {
+    text-shadow: 2px 2px 5px red;
+  }
+  
+  
+  /* Third Text-shadow effect! */
+  .Third {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  
+  }
+  
+  
+  
+  
+  
+  /* CSS box-shadow Property */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px;
+  }
+  
+  /* Specify a Color for the Shadow */
+  div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px lightblue;
+  }
+  
+  
+  
+  /* Add a Blur Effect to the 
+  Shadow */
+  div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px lightblue;
+  }
+  
+  
+  /* Set the Spread Radius of 
+  the Shadow */
+  div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px
+     12px lightblue;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Add Multiple Shadows */
+  #example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px blue,
+     10px 10px red, 15px 15px
+      green;
+    margin: 20px;
+  }
+  
+  #example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px
+     blue, 10px 10px 8px
+    red, 15px 15px 8px green;
+    margin: 20px;
+  }
+  
+  
+  /* Create Polaroid Images */
+  
+  div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0
+     rgba(0, 0, 0, 0.2), 
+     0 6px 20px 0 rgba(0, 0, 
+     0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  /* CSS Text Overflow */
+  
+  p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow:ellipsis;
+  }
+  
+  
+  /* CSS Word Wrapping */
+  p.wrapping {
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+  }
+  
+  
+  
+  
+  
+  /* CSS Word Breaking */
+  
+  p.Breaking1 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+  }
+  
+  p.Breaking2 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+  }
+  
+  
+  /* CSS Writing Mode */
+  p.Writing1 {
+    writing-mode: horizontal-tb; 
+  }
+  
+  span.test2 {
+    writing-mode: vertical-rl; 
+  }
+  
+  p.Writing2 {
+    writing-mode: vertical-rl; 
+  }
+  
+  
+  
+  /* CSS Web Fonts */
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+  * {
+    font-family: myFirstFont;
+  }
+  
+  
+  
+  
+  
+  /* Using Bold Font */
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  }
+  
+  * {
+    font-family: myFirstFont;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* The translate() Method */
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,
+    100px);
+  }
+  
+  
+  
+  
+  /* The rotate() Method */
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv {
+    transform: rotate(20deg);
+  }
+  
+  
+  
+  /* CSS 2D Transforms */
+  /* The scale() Method */
+  
+  div {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(2,3);
+    
+  }
+  
+  
+  
+  
+  
+  /* CSS 2D Transforms  */
+  /* The scaleX() Method  */
+  
+  div {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(2);
+  }
+  
+  
+  
+  
+  
+  /* CSS 2D Transforms  */
+  /* The scaleY() Method */
+  
+  div {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleY(3);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* The skewX() Method */
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv {
+    transform: skewX(20deg);
+  }
+  
+  
+  
+  
+  
+  /* The skewY() Method */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv {
+    transform: skewY(50deg);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  div#myDiv {
+    transform: skew(20deg,10deg);
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* The matrix() Method */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv1 {
+    transform: matrix(1, -0.3,
+    0, 1, 0, 0);
+  }
+  
+  div#myDiv2 {
+    transform: matrix(1, 0, 0.5,
+     1, 150, 0);
+  }
+  
+  
+  /* CSS 3D Transforms */
+  /* The rotateX() Method */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  #myDiv {
+    transform: rotateX(150deg);
+  }
+  
+  
+  
+  
+  
+  /* The rotateY() Method */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  #myDiv {
+    transform: rotateY(150deg);
+  }
+  
+  
+  
+  
+  
+  /* The rotateZ() Method */
+  
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  #myDiv {
+    transform: rotateZ(90deg);
+  }
+  
+  
+  
+  /* CSS Transitions */
+  .aptech {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s;
+    transition-delay: 1s;
+  }
+  
+  .aptech:hover {
+    width: 300px;
+  }
+  
+  /*
+  Adding Transition to Width and
+    Height CSS Properties */
+  
+  .tech {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+  }
+  
+  .tech:hover {
+    width: 300px;
+    height: 300px;
+  }
+  
+  
+  /* The transition-delay
+  property */
+  
+  .go {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 4s;
+    transition-delay: 2s;
+  }
+  
+  .go:hover {
+    width: 300px;
+  }
+  
+  /* transition-timing-function */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: ease;}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}
+  
+  div:hover {
+    width: 300px;
+  }
+  
+  
+  /* Transition + Transform */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s,
+    height 2s, transform 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+  
+  
+  /* The transition Properties
+  Specified One by One */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+  
+  div:hover {
+    width: 300px;
+  }
+  
+  
+  
+  /* CSS Animation */
+  /* The @keyframes Rule */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color:
+       red;}
+    to {background-color:
+       yellow;}
+  }
+  
+  
+  /* CSS Animation using % to specify rate of color change */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  
+  /* Using CSS Animation to change both
+  the color and position of an object */
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  
+  
+  /* CSS Tooltip */
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  
+  
+  /* CSS Styling Images */
+  
+  /* rounded image */
+  img {
+    border-radius: 8px;
+  }
+  
+  
+  /* circled image */
+  img {
+    border-radius: 50%;
+  }
+  
+  
+  
+  /* pagination */
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active)
+   {background-color: #ddd;}
+  
+  
+  
+  /* CSS Multiple Columns */
+  
+  .newspaper {
+    column-count: 3;
+    column-gap:  40px;
+    column-rule-style:solid;
+  }
+  
+  
+  
+  
+  
+  
+  /* Navigation Bar Dropdown */
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid red;
+  }
+  
+  .dropdown-content a:hover {background-color:
+    #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
+  
+  /* Subnav/dropdown menu inside a Navigation Bar */
+  
+  
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }

@@ -1,0 +1,6 @@
+#lip{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image:conic-gradient(red 0deg, red 90deg, yellow 90deg,yellow 180deg, green 180deg, green 270deg, blue 270deg, blue 315deg, black 315deg)  ;
+}

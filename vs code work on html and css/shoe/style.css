@@ -1,0 +1,72 @@
+.nav{
+  display: flex;  
+}
+.foot{
+    margin: 57px;
+}
+.dom{
+    margin-left: 300px;
+    padding: 63px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.leo{
+    padding: 63px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.lil{
+    margin-left: 300px;
+    margin-top: 56px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.rip{
+    
+    word-spacing: 10px;
+    margin: 200px 200px 0px 200px;
+}
+.next{
+    font-size: 20px;
+    margin-left: 160px;
+    font-weight: 700;
+}
+.lim{
+    text-decoration: none;
+    background-color:darkblue;
+    color: white;
+    padding: 10px 15px 15px 15px;
+    border-radius: 4pc;
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.where{
+ float: left;
+}
+img{
+    height: 300px;
+    margin: 0px;
+}
+.lip{
+    float: left;
+    margin-top: 100px;
+}
+.dol{
+    font-weight: 600;
+    color: black;
+    background-color:deepskyblue ;
+    font-size: 55px;
+    border-radius: 500px;
+    width:100px;
+    height: 100px;
+    padding-top: 4pc;
+    padding-bottom: 2pc;
+    padding-right: 3pc;
+    padding-left: 4pc;
+    margin-left: 300px;
+    margin-top: 0pc;
+}

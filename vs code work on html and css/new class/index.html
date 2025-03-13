@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <!-- Center Align Elements -->
+
+    <h2>Center align Element</h2>
+    <p>to horizontal center a block element
+        (like div),
+        use margin
+    </p>
+
+    <div class="center">
+        <p>hello world</p>
+    </div>
+
+        <!-- center text -->
+        <h2>Center text</h2>
+
+    <section class="center">
+        <p>this text is centered</p>
+    </section>
+
+    <!-- Center image -->
+    <h2>center an image</h2>
+    <p>to center an image,set left and right
+        margine to auto,and make it into a element
+    </p>
+
+    <img class="hp" src="wally.jpg"alt="random"style="width:40%;">
+    
+    <!-- CSS combinators -->
+<p>
+    (1)descendant selector (space)
+    (2)child selector (>)
+    (3)adjacent sibling selector (+)
+    (4)general sibling selector(~)
+</p>
+
+<!-- CSS combinators -->
+    <!-- Descendant selector -->
+    <p>Descendant selector</p>
+
+    <p>
+        The descendant selector matches all Element that are descendants of specified element
+
+    </p>
+     
+    The following example selects all elements in the div selector:
+
+    <h2> Descendant selector</h2>
+
+    <div class="class">
+        <p>paragraph 1 in the div</p>
+        <p>paragraph 2 in the div</p>
+         <selection>
+            <p>paragraph 3 in the div</p>
+         </selection>
+    </div>
+
+    <p>paragraph 4. NOT in the div .</p>
+    <p>Paragraph 5. not in the div.</p>
+
+    <!-- CSS Combinator -->
+            <!-- Child selector -->
+
+            <p>Child selector</p>
+
+        <h2>Child selector</h2>
+
+        <p>
+            The Child selector (>) selects all elements that
+            are the childern of a specified element.
+        </p>
+
+        <div class="phone">
+            <p>paragragh 1 in the div</p>
+            <p>paragragh 2 in the div</p>
+            <section>
+                <!-- not child but descendant -->
+                <p>paragragh 3 in the div(inside a section
+                    element).</p>
+            </section>
+            <p>paragragh 4 in the div</p>
+        </div>
+
+        <p>paragragh 5.Not in the div</p>
+        <p>paragragh6 not in the div</p>
+
+<!-- css combinators -->
+<!-- Adjacent sibling selector (+) -->
+
+<h2>Adjacent sibling selector</h2>
+
+<p>
+    The + selector is used to select an element that is directly 
+    after another specific elemen.
+</p>
+<p>
+    The following example selects the first p element that are place immediately
+    after div elements
+</p>
+
+<div class="adj">
+<p>paragraph is in the div.</p>
+<p>paragrph 2 is in the div.</p>
+</div>
+
+<p>paragraph 3 is after the div</p>
+<p>paragraph 4 is after the div</p>
+
+<div class="adj">
+<p>para graph 5 is in the div</p>
+<p>para graph 6 is in the div</p>
+</div>
+<p>para graph 7 is in the div</p>
+<p>para graph 8 is in the div</p>
+
+<!-- css combinators -->
+<!-- General sibling selector  -->
+<h2>General sibling selector</h2>
+
+<p>the deneral sibling selector (~) selects all
+    elements that are next to the siblings of a specified element
+</p>
+<p>paragraph 1</p>
+<div class="leo">
+    <p>paragraph 2</p>
+</div>
+
+<p>paragraph 3</p>
+<code> some code .</code>
+<p> paragraph 4 .</p>
+<p> paragraph 5</p>
+
+<!-- pseudo - class selector -->
+<p>pseudo-class is used to define a 
+    special state of an element
+</p>
+for example,it can be used to:
+
+(1)Style an element when a user mouse over it
+(2)style visited and unvisited links differently
+(3)style an element when it gets focus
+
+<p>Anchor pseudo-class selector</p>
+
+    <h2>
+        Styling  a link depending on state
+    </h2>
+
+    <p><b><a href="dig.html"target="blank">this is a link</a></b></p>
+
+    <p><b>note:</b>
+    a:hover MUST come after
+    a:link and a:visited in the css.
+    definition in order to be effective.
+    </p>
+
+    <p><b>note:</b>a:active MUST come 
+    after a:hover in the CSS definition in order
+    to be effective</p>
+
+     <!-- hover pseudo-class on a div element -->
+<p>mouse over the div elemrnt below to
+    change its background colour
+</p>
+<div class="obi">Mouse over me</div>
+
+<div class="tooltip"> hover over this
+    div element to show the p element 
+    <p>tada! here i am
+    </p>
+</div>
+<!-- CSS - The first-child Pseudo-class -->
+    <p>This is some text</p>
+    <p>This is some text</p>
+    <div class="first">
+        <p>This is some text</p>
+        <p>This is some text</p>
+    </div>
+    <p>This is some text</p>
+    
+    
+    <!-- CSS Pseudo-Element -->
+    
+    what are Peudo Element ?
+    A CSS Pseudo-Element is used to style specified
+    fixed parts of an element.
+    <p class="fill">
+        you can use the::first-line Peudo-element to add a special
+        effect to the first line of a text.
+        Lorem ipsum dolor sit amet consectetur,
+         adipisicing elit. Necessitatibus, 
+         quisquam pariatur minima eos voluptates
+          possimus maxime esse, et vero quo harum
+           aspernatur rerum blanditiis totam recusandae, 
+           quos expedita voluptatum ut.
+    </p>
+    
+    <!-- The ::First-Letter Pseudo-element- -->
+    <p class="first-letter">
+        Once you can use the ::first letter Pseudo element to add special effect
+    to the first character of a tool</p>
+    
+    <!-- Pseudo-Element and HTML classes -->
+    <p class="element">This is a paragraph with some text.
+        Abit more text even.
+    </p>
+    
+    
+    <!-- Multiple Pseudo-Element -->
+    
+    <p class="multiple">
+        you can combine the ::first-letter adipisicing::first line Pseudo-Element
+        to add a special effect to the first-letter and the first-line of the text
+    </p>
+    
+    <!-- CSS the :: before pseudo-element -->
+    <p> The ::before pseudo-element inserts content before the content of an element</p>
+    
+    <h1 class="before">This is a heading</h1>
+<br><br><br>
+<!-- The :: After pseudo-element -->
+<h1> This is the heading</h1>
+<p>The :: after pseudo element inserts
+    content after the content of an element
+</p>
+<h1 class="after">THis is a heading</h1>
+
+<br><br>
+<!-- CSS - The ::marker pseudo-element -->
+<p>
+    The ::marker pseudo-element selects the marker of list item.
+  </p>
+  
+  <ul>
+    <li>Praise</li>
+    <li>Kome</li>
+    <li>Obi</li>
+  </ul>
+  
+  <ol>
+    <li>Victory</li>
+    <li>Eti-Osa</li>
+    <li>Tekome</li>
+  </ol>
+  <br><br>
+  <h1>Image transparency</h1>
+  <p>
+    the opacity property specifies the transparency of an elment the lower the value the more trasparent
+  </p>
+  <p>Image with 50% opacity:</p>
+<img  class="car"  src="wally.jpg"car" width="170" height="100">
+
+<!-- trasparent hover effect -->
+<h1>image tansparency</h1>
+<p>the opacity property is often used together with the :hover selector to change the capacity
+    on mouth oover
+</p>
+<img class="leo" src="wally.jpg "alt="forest" width="170" height="100">
+<img class="leo" src="script.jpg"alt="forest" width="170" height="100">
+<img class="leo" src="giannis.jpeg"alt="forest" width="170" height="100">
+
+<br><br>
+<!-- Text in transparent color -->
+<div class="background">
+    <div class="transbox">
+        <p>This is some text that is placed in the transparent box.</p>
+    </div>     
+</div>
+<!-- CSS IMAGE GALLERY -->
+<div class="gallery">
+    <a target="_blank" href="f4357d6f70d4f11f64997657d110e167.jpg">
+    <img src="script.jpg" alt="Cinque terre" width="600" height="400">  
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="Screenshot_20230705-062605.png">
+      <img src="wally.jpg" alt="forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a desciption of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="2870.jpg">
+      <img src="dudu.jpg" alt="yaya" width="600" height="400">
+    </a>
+    <div class="desc">Add a desciption of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="script.jpg">
+      <img src="giannis.jpeg" alt="yayaf" width="600" height="400">
+    </a>
+    <div class="desc">Add a desciption of the image here</div>
+  </div>
+  <h3>Using CSS to style an HTML Form</h3>
+  <div class="divide">
+      <form>
+          <label for="fname">firstname</label>
+          <input type="text" class="input" id="fname" name="firstname" placeholder="place your Firstsname">
+
+          <label for="fname">Lastname</label>
+          <input type="text" class="input" id="fname" name="Lastname" placeholder="place your Lastname">
+      
+      <label for="country">country</label>
+      <select name="country" id="country">
+          <option value="australia">Australia</option>
+          <option value="canada">canada</option>
+          <option value="USA">USA</option>
+      </select>
+
+      <input type="submit" value="submit">
+  </form>
+  </div>
+
+  <!-- styling input fields width  -->
+  <form>
+    <label for="fname">First Name </label>
+    <input class="form" type="text" id="fname"
+    name="fname">
+  </form>
+  
+<!-- padded inputs -->
+<p>use the padding property to add space inside the text field</p>
+<h2>padded input fields</h2>
+<form>
+    <labels for="fname"> First name</labels>
+<input type="text" id="fname" name="fname">
+    <labels for="fname"> Last name</labels>
+    <input type="text" id="lname" name="lname">
+</form>
+
+<!-- bordered inputs -->
+
+<h2>input fields with border</h2>
+<form>
+    <labels for="fname"> First name</labels>
+<input type="text" id="tip" name="fname">
+    <labels for="fname"> Last name</labels>
+    <input type="text" id="tip" name="lname">
+</form>
+
+<!-- input fields with bottom border -->
+<h2><I>input fields with bottom border</I></h2>
+<form>
+    <labels for="fname"> First name</labels>
+    <input type="text" id="lil" name="fname">
+        <labels for="fname"> Last name</labels>
+        <input type="text" id="lil" name="lname">
+</form>
+ <!--Focused inputs-->
+ <h2>input field with color on :focus</h2>
+ <p>Here, the input field get a color when it gets focus(clicked on):</p>
+ <form>
+ <label for="fname">First Name</label>
+ <input class="" type="text" id="dig" name="fname" value="john">
+ <label for="lname">Last name</label>
+ <input type="text" id="dig" name="lname" value="Doe">
+ </form>
+
+<!-- input field with an icon inside -->
+<h2>Input field with an icon inside</h2>
+
+<form>
+  <input type="text" class="poo" name="search" placeholder="search..">
+</form>
+
+<!-- Animate width of search input -->
+<h2>Animate width of search input </h2>
+
+<form>
+  <input type="text" class="idim" name="search" placeholder="search..">
+
+
+
+</form>
+
+
+      <!-- styling textarea -->
+<h2>styling textarea</h2>
+
+<p><strong>Tip:</strong>
+use the resize property to prevent text areas from being resized
+(disable the grabber in the bottom right corner) :</p>
+
+<form action="">
+    <textarea name="" id="" cols="30" rows="10">some text</textarea>
+</form>
+
+<!-- styling select menu -->
+<h2>styling aselect menu</h2>
+
+<form>
+    <select id="country" name="country">
+        <option value="au"> Australia</option>
+        <option value="ca"> canada</option>   
+        <option value="usa"> USA</option>
+    </select>
+</form>
+
+
+<!-- Responsive form -->
+
+<h2>Responsive Form</h2>
+<p> Resize the brower window to see the effect. when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other</p>
+<div class="container">
+  <form>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="Firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your lastname...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country"></label>
+      </div>
+      <div class="75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="Japan">Japan</option>
+          <option value="Korea">Korea</option>
+          <option value="vietnam">Vietnam</option>
+        </select>
+      </div>
+    </div>
+
+
+<div class="row">
+      <div class="col-25">
+        <label for="subject">subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="write something i guess" style="height: 200px;"></textarea>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <input type="submit" value="submit">
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+  </form>
+</div>
+
+
+
+
+
+</body>
+</html>

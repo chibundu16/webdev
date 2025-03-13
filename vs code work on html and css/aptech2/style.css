@@ -1,0 +1,111 @@
+header{
+    background-color: aqua;
+    padding: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+a{
+    padding: 15px;
+}
+.leo{
+    padding-left: 800px;
+}
+img{
+    z-index: -1;
+    position: absolute;
+}
+h1{
+    color: aqua;
+}
+.pink{
+color: aqua;
+}
+.p{
+    color: aqua;
+}
+
+.b{
+    color: white;
+    font-size: 20px;
+    background-color: aqua;
+    display: inline;
+    
+}
+.divi{
+    margin-left: 100px;
+}
+.lily{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    font-size: 30PX;
+    padding-left: 480px;
+    padding-top: 500px;
+}
+.ope{
+    margin-left:580px ;
+    height: 200px;
+}
+.mia{
+  margin-left: 1120px; 
+  z-index: -1;
+  position: absolute;
+   margin-top: 80px;
+}
+.titi{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 200px;
+}
+.i{
+    margin-left: 130px;
+    margin-top: 150px;
+}
+.j{
+    margin-left: 630px;
+
+}
+.k{
+    margin-left: 1100px;
+    
+    
+}
+.pant{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    font-size: 30PX;
+    padding-left: 570px;
+    padding-top: 500px;
+}
+body{
+    background-color: bisque;
+}
+.tie{
+    margin-left: 950px; 
+    position: absolute;
+     margin-top: 30px;
+}
+.tat{
+    margin-left:600px ;
+    margin-top: 50px;
+}
+.tot{
+    margin-top: 50px; 
+    margin-left: 250px;
+    width: 20%;
+}
+.new{
+    font-size: 40px;
+    margin-left: 390px;
+    margin-top: 300px;
+    color: white;
+    
+}
+.escobar{
+    color: white;
+    margin-left: 390px;
+}
+footer{
+    background-color: aqua;
+    margin-top: 300px;
+}

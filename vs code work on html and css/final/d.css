@@ -1,0 +1,175 @@
+/* CSS Conic Gradients of Three colors*/
+
+#grad1 {
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do
+     not support gradients */
+    background-image: conic-gradient(red, yellow,
+     green);
+  }
+  
+  /* Conic Gradient: Five Colors */
+  
+  #grad2 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image: 
+    conic-gradient(red, yellow,
+     green, blue, black);
+  }
+
+    /* Conic Gradient - Defined degree for
+   each color */
+  
+   #grad3 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image: 
+    conic-gradient(red 45deg, yellow
+     90deg, green 210deg);
+  }
+
+    /* Conic Gradient - Pie Chart */
+  
+    #grad4 {
+        height: 200px;
+        width: 200px;
+        background-color: red; 
+        /* For browsers that do not support
+         gradients */
+        background-image: conic-gradient
+        (red, yellow, green, blue,
+         black);
+        border-radius: 50%;
+      }
+      
+       
+  /* Conic Gradient pie chart with 
+  defined degrees for all the colors */
+  
+  #grad5 {
+    height: 200px;
+    width: 200px;
+    background-color: red; 
+    /* For browsers that do not support 
+    gradients */
+    background-image:conic-gradient(red 0deg, 
+    red 90deg, yellow 90deg,
+     yellow 180deg, green 180deg,
+      green 270deg, blue 270deg, 
+      blue 315deg, black 315deg,
+      black 360deg)  ;
+    border-radius: 50%;
+  }
+
+  /* CSS Shadow Effects */
+  
+  .dorm {
+    text-shadow: 2px 2px ;
+  }
+  
+  /* First Text-shadow effect! */
+  .First {
+    text-shadow: 2px 2px red;
+  }
+  
+  /* Second Text-shadow effect! */
+  .Second {
+    text-shadow: 2px 2px 5px red;
+  }
+  
+  
+  /* Third Text-shadow effect! */
+  .Third {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  
+  }
+  .lol{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: -10px 10px ;
+  }
+
+   /* Specify a Color for the Shadow */
+   .pip {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px lightblue;
+  }
+  
+    /* Add a Blur Effect to the 
+  Shadow */
+  .pin {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 2px 2px 5px 12px lightblue;
+  }
+
+   
+  /* Set the Spread Radius of 
+  the Shadow */
+  .der{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px
+     12px lightblue;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Add Multiple Shadows */
+  #example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px blue,
+     10px 10px red, 15px 15px
+      green, 20px 20px yellow;
+    margin: 20px;
+  }
+    
+  #example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px 12px
+     blue, 10px 10px 8px 12px
+    red, 15px 15px 8px 12px green, 20px 20px 8px 12px yellow;
+    margin: 20px;
+
+  }
+
+   
+  /* Create Polaroid Images */
+  
+  div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0
+     rgba(0, 0, 0, 0.2), 
+     0 6px 20px 0 rgba(0, 0, 
+     0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  

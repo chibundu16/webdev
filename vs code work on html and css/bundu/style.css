@@ -1,0 +1,265 @@
+body{
+    /* background-color: yellow;  */
+        /* color: chocolate; */
+        background-image: url(script.jpg);
+        background-repeat:  no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .chibby{
+        color: blue;
+    }
+.absolute{
+    background-color: purple;
+}
+
+    
+    a{
+        color: blueviolet;
+    }
+    .dudu{
+        color: pink;
+    }
+    .fixed{
+        background-color: #73AD21;
+        
+    }
+    .sticky{
+        background-color: black;
+    }
+    .static{
+        background-color: black;
+    }
+    .milo{
+        color: brown; background-color: green;
+    }
+    body{
+       color: red;
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .aptech{
+        color: brown;
+        
+
+    }
+    .odudu{
+        color: lawngreen;
+        
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .pinky{
+        color: blue;
+        background-color: antiquewhite;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .navbar .obi{
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color:pink;
+   text-decoration: none;
+    padding: 14px 7px;
+    float: left;
+    }
+    a{
+        padding: 14px 6px;
+        text-decoration: none;
+        color: wheat;
+    }
+    a:hover{
+        background-color: orangered;
+        /* color: lawngreen; */
+    }
+    .active{
+        background-color: blueviolet;
+    }
+    div.static{
+        position: static;
+        border: 3px solid #73ad21; 
+    }
+    div.fixed{
+        position: fixed;
+        left: 30px;
+        border: 3px solid  #73ad21;
+    }
+    div.sticky{
+        position: sticky;
+        left: 30px;
+        border: 2px solid  #73ad21;
+        background-color: #cae8ca;
+        top: 0;
+    }
+    div.absolute{
+        position: absolute;
+        right: 0;
+        border: 3px solid  #73ad21;
+        width: 200px;
+        height: 100px;
+    }
+/* CSS Text-formatting properties */
+/* using line-height  */
+p.small{
+    line-height: 0.7;
+}
+p.big{
+    line height: 7;
+}
+/* CSS Text-formatting properties */
+/* using word-spacing  */
+p.one{
+    word word-spacing: 10px;
+}
+p.two{
+    word-spacing: 20px;
+}
+
+/* CSS Text-formatting properties */
+/* using white-spacing  */
+
+p.white-spacing{
+    white-space: pre-wrap;
+    border:2px solid red;
+}
+/* CSS Text-formatting properties */
+/* using white-spacing  */
+ h1.shadow{
+    text-shadow: 2px 2px red;
+ }
+ h1.shadow2{
+    text-shadow: 2px 2px 5px greenyellow;
+ }
+/* css Text fonts */
+.p1{
+     font-family: 'Courier New', Courier, monospace;
+}
+.p2{
+    font-family: arial;
+}
+.p3{
+    font-family: lucida;
+}
+/* css links */
+
+/* unvisited links */
+a:link{
+    color: red;
+}
+
+/* visited link */
+a:visited{
+    color: green;
+}
+
+/* mouse over link */
+a:hover{
+    color: hotpink;
+}
+/* selected color */
+a:active{
+    color:blue
+}
+
+/* css layput - the display property */
+span {
+    display: block;
+}
+
+/* this is the visible heading and invisible heading */
+h1.hidden{
+    display: none;
+}
+
+/* visibility: hidden ;also hides an element */
+h1.hidden {
+    visibility: hidden;
+}
+
+div.ex1{
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+
+}
+
+div.ex2{
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+
+    .prime{
+        z-index: -1;
+        position: absolute;
+        left: 0px;
+        top: opx;
+    height: 50%px;
+    width: 50%;
+    }
+
+    #overflow{
+        background: #4CAF50;
+        color: white;
+        padding: 15px;
+width: 100px;
+height: 100px;
+overflow: hidden;
+border: 1px solid #ccc;
+ }
+
+ /* The float property */
+ .img{
+    float: right;
+ }
+
+ /* css layout - display : inline-block */
+
+ span.a{
+     display: inline; /*  the default for span  */
+     width: 100px;
+     height: 100px;
+     padding: 5px;
+     border: 3px solid blue;
+     background-color: yellow;
+ 
+    }
+    span.b{
+        display: inline-block; 
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 3px solid blue;
+        background-color: yellow;
+    
+       }
+       span.c{
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;
+        background-color: yellow;
+    
+       }
+       .nav{
+        background-color: yellow;
+        left: 4px;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+       }
+       .nav li{
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px; 
+    }
+
+    a{
+        text-decoration: none;
+    }
+   
+   
+
+
+

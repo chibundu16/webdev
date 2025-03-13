@@ -1,0 +1,543 @@
+
+    body{
+        margin-top: 79px;    
+        background-image: url(https://images.unsplash.com/photo-1685288532492-932a4e567279?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+        background-repeat: no-repeat;
+        background-position: absolute;
+        background-attachment:fixed ;
+        background-size: cover;
+        text-align: center;
+        
+        text-align: center;
+    }
+
+    body::before{
+        background-image: url(https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+        opacity: 0.3;
+    }
+ 
+
+    .leo{
+        margin-top: 100px;
+        margin-right: 500px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 28px;
+        text-decoration: none;
+        color: white;  
+    }
+    header{
+        padding-top: 20px;
+        text-align: center;
+        position: relative;
+    }
+    .dip{
+        color: white;  
+        font-weight: 100;
+        text-decoration: none; 
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-family: "Nunito", sans-serif;
+        padding: 10px;
+        float: right;
+        margin-right: 50px;
+        
+    }
+    .tiv{
+        text-align: center;
+        margin-top: 180px;
+        background-color: transparent;
+        font-weight: 100px;
+        color: white;
+        border-radius: 100px;
+        font-size: 26px;
+        border: 2px white;
+    }
+    .i{margin-top: -142px;
+        font-size:48px ;
+        color: white;
+    }
+    .loop{
+        text-align: center;
+        color: black;
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding: 10px;
+        
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 29px;
+        margin-bottom: 40px;   
+    }
+    .bib{
+        color: black;
+    }
+    .a{
+        font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    }
+    .b{
+        font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    }
+    
+.a:hover{
+    background-color: black;
+    border: #fdeff2;
+}
+  .b:hover{
+    background-color: black;
+    border:#fdeff2;
+  } 
+.dupe{
+    color: brown;
+    border-radius:50px ;
+    background: #fdeff2;
+    border: 10px;
+    display: inline;
+    font-size:25px ;
+    text-align: center;
+    padding: 15px;
+  } 
+  .d{
+    color: white;
+    font-size: 32px;
+    
+  }
+  .e{
+    color: #e43c5c ;
+    font-size: 32px;
+  }
+  .c{
+    margin: 15px 0 0 0;
+  }
+.red{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.z{
+    color: #e43c5c;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 15px 10px 10px; 
+}
+.p{
+    color: white;
+    margin: 15px auto 0 auto;
+    font-weight: 400 ;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.mite{
+    color: #e43c5c;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    padding-top: 50px;
+}
+.t{
+   font-size: 20px;
+}
+.l{
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.l:hover{
+    background-color: #e43c5c;
+    border-color: #e43c5c;
+    
+}
+.n{
+    color: white;
+    font-size: 20px;
+}
+.dump{
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    border-color: #e43c5c;
+    color: #e43c5c;
+    padding: 20px;
+    background: #fdeff2;
+    border: 10px;
+}
+.dump:hover{
+    background-color: #e43c5c;
+    color: white;
+}
+.ram{
+    display: flex;
+   
+}
+.love{
+    height: 20%;
+    width: 20%; 
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
+.loop{
+    height: 20%;
+    width: 20%; 
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+
+.mut{
+    height: 20%;
+    width: 20%;
+    padding: 50px;
+}
+.trey{
+    color: brown;
+    border-radius:50px ;
+    background: #fdeff2;
+    border: 10px;
+    display: inline;
+    font-size:25px ;
+    text-align: center;
+    padding: 15px;
+    
+}
+.rain{
+    width: 80%;
+    height: 270px;
+}
+.he{
+    margin-top: 50px;
+    margin-left: 480px;
+    padding-left:25px;
+    width:80px;
+    padding-top:10px;
+    height: 25px;
+    font-size:small;
+    color:ghostwhite;
+    background-color:tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+  }
+  .offa{
+    margin-top: 35px;
+    margin-left: 330px;
+    color: #291B2A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
+  b.pl{
+    color:orangered;
+  }
+  p.titi{
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .xnxx{
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    transition: linear 8000s ease-in-out; 
+    margin-left: 250px;
+  }
+  .creampie{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .bbc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+  }
+  .xnxx:hover{
+    color: ghostwhite;
+    background-color:rgb(117, 47, 34);
+  }
+  .tities{
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    transition: linear 8000s ease-in-out; 
+    margin-left: 200px;
+  }
+  
+  .dick{
+   font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .fetish{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+  }
+  .tities:hover{
+    color: ghostwhite;
+    background-color:rgb(117, 47, 34);
+  }
+  .stupid{
+    display: flex;
+    text-align: center;
+  }
+
+  .fa-location-dot{
+    font-size: 20px;
+    color: #e43c5c;
+    width: 44px;
+    height: 48px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 14px;
+    text-align: center;
+}
+.locate1{
+    margin-left: 1%;
+    width: 220px;
+    display: block;
+    margin-top: 5%;
+    height: 222px;
+    padding: 4px;
+    color: #fff;
+}
+.locate{
+    margin-left: 10%;
+    width: 100px;
+    display: block;
+    margin-top: 5%;
+    padding: 4px;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: #e43c5c;
+    float: left;
+    width: 44px;
+    height: 48px;
+    background: transparent;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 14px;
+}
+.fa-phone{
+    font-size: 20px;
+    color: #e43c5c;
+    width: 44px;
+    height: 48px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 14px;
+    text-align: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 20px;
+    background-color: #fdeff2;
+}
+.contain{
+    display: flex;
+}
+.loc{
+    height: 10px;
+}
+.boss{
+    display: flex;
+}
+.for{
+    margin-left: 10%;
+    margin-top: 3.5%;
+    height: fit-content;
+    text-align: center;
+}
+textarea{
+    margin-top: 25px;
+}
+.club{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+.pool{
+    width: 48.7%;
+    height: 40px;
+}
+.blue{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    color: brown;
+    background-color: #fdeff2;
+    border: #fdeff2 2px solid;
+    margin-top: 40px;
+}
+.ic{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 20px;
+    background-color: #e43c5c;
+}
+.fa-linkedin{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fa-twitter{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fa-github{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fa-facebook-f{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}    
+
+.icon:hover{
+    background-color: #f78e9e;
+}
+.dip:hover{
+    text-decoration: underline crimson;
+}
+footer{
+    background-color:  #f78e9e;
+    color: #fdeff2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  
+  
+  .tutu{
+    margin-left: 1000px;
+  }
+  .nav{
+    margin: -79px;
+    width: 1590px;
+    position: fixed;
+  }
+  section{
+    padding-top: 20px;
+  }
+
+  .About{
+    background-color: black;
+    }
+ .services{
+    background-color: black;
+    
+ }
+ .work{
+    background-color: black;
+ }
+ .contact{
+    background-color: black;
+ }
+ 
+ .action{
+    background-image: url(https://obitex.netlify.app/assets/img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment:fixed ;
+    background-size: cover;
+    height: 407px;
+    margin-top: -29px;
+    color: #291B2A;
+ } 
+ 
+  
+ 
+
+ 
+  
+
+     
+    
+
+
